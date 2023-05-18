@@ -1,0 +1,23 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --almost-white: hsl(0, 0%, 98%);
+    --medium-gray: hsl(0, 0%, 41%);
+    --almost-black: hsl(0, 0%, 8%);
+}
+
+body {
+    font-size: 1.8rem;
+    font-family: 'Epilogue', sans-serif;
+}
