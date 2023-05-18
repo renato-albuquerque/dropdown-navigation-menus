@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content: center;    /* Alternative to keep similar to the original project. */ 
     align-items: center;
-    gap: 22rem;     /* Alternative to keep similar to the original project. */ 
+    gap: 18rem;     /* Alternative to keep similar to the original project. */ 
     margin-bottom: 2rem;
 }
 
