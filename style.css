@@ -134,17 +134,64 @@ footer {
     transition: all 200ms;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
     body {
-        width: 100rem;
+        width: 120rem;
         height: 100vh;
     }
 
+    .navigation {
+        justify-content: space-between;
+    }
+
+    .wrapperLogoFirstMenu {
+        display: flex;
+        align-items: center;
+        gap: 5rem;
+    }
+
+    header ul {
+        display: flex;
+        gap: 3rem;
+    }
+
+    header ul li a {
+        color: var(--medium-gray);
+    }
+
+    header ul li a:hover {
+        color: var(--almost-black);
+    }
+
+    .firstMenu {
+        display: block;
+    }
+
+    .secondMenu {
+        display: flex;
+    }
+
+    .secondMenu .register {
+        border: 2px solid var(--medium-gray);
+        border-radius: 1.5rem;
+        padding: 1rem 2rem;
+    }
+
+    .secondMenu .register:hover {
+        border: 2px solid var(--almost-black);
+    }
+
+    .mobileMenu {
+        display: none;
+    }
+
     .main {
+        width: 100rem;
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
         gap: 10rem;
+        margin: 0 auto; /* To center all the box. */
     }
 
     .imageHeroMobile {
@@ -153,15 +200,15 @@ footer {
 
     .imageHeroDesktop {
         display: block;
-        width: 100%;        
+        width: 90%;        
     }
 
     .section-2 {
-        align-items: flex-start;
+        align-items: flex-start;    /* To align the button to left. */
     }
 
     .title {
-        font-size: 6.8rem;
+        font-size: 6.7rem;
         /* text-align: left; */
         margin-bottom: 4rem;
         margin-top: 14rem;
@@ -174,7 +221,7 @@ footer {
     } 
 
     .button {
-        margin-bottom: 12rem;
+        margin-bottom: 8rem;
     }
 
     .advImagesAll {
