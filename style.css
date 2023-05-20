@@ -58,6 +58,10 @@ body {
     width: 100%;
 }
 
+.imageHeroDesktop {
+    display: none;
+}
+
 .section-2 {
     display: flex;
     flex-direction: column;
@@ -130,3 +134,66 @@ footer {
     transition: all 200ms;
 }
 
+@media (min-width: 1200px) {
+    body {
+        width: 100rem;
+        height: 100vh;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 10rem;
+    }
+
+    .imageHeroMobile {
+        display: none;        
+    }
+
+    .imageHeroDesktop {
+        display: block;
+        width: 100%;        
+    }
+
+    .section-2 {
+        align-items: flex-start;
+    }
+
+    .title {
+        font-size: 6.8rem;
+        /* text-align: left; */
+        margin-bottom: 4rem;
+        margin-top: 14rem;
+    }
+
+    .text {
+        font-size: 3.2;
+        text-align: left;
+        margin-bottom: 5rem;
+    } 
+
+    .button {
+        margin-bottom: 12rem;
+    }
+
+    .advImagesAll {
+        gap: 3rem;
+        margin-bottom: 10rem;
+    }   
+
+    footer {
+        line-height: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .textFooter-p {
+        font-size: 1.4rem;
+        /* margin-bottom: 0.5rem; */
+    }
+    
+    .textFooter-a {
+        font-size: 1.4rem;
+    }
+    
+}
