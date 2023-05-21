@@ -142,11 +142,12 @@ footer {
 
     .navigation {
         justify-content: space-between;
+        align-items: flex-start;
     }
 
     .wrapperLogoFirstMenu {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         gap: 5rem;
     }
 
@@ -164,6 +165,53 @@ footer {
     }
 
     .firstMenu {
+        display: block;
+    }
+
+    .dropdown {
+        position: relative;
+        margin-bottom: 2rem;
+    }
+
+    .dropdownFeatures {
+        background-color: rgb(255, 254, 254);
+        border-radius: 2rem;
+        box-shadow: 0 0 15px 10px rgba(0,0,0,0.1);
+        padding: 2rem;
+        display: none;
+    }
+
+    .dropdownFeatures a {
+        display: block;
+        color: var(--medium-gray);
+        padding: 0.5rem;
+        font-size: 1.6rem;
+    }
+
+    .dropdownFeatures img {
+        margin-right: 1rem;
+    }
+
+    .wrapDropdownFeatures:hover .dropdownFeatures {
+        display: block;
+    }
+
+    .dropdownCompany {
+        background-color: rgb(255, 254, 254);
+        border-radius: 2rem;
+        box-shadow: 0 0 15px 10px rgba(0,0,0,0.1);
+        padding: 2rem;
+        display: none;
+    }
+
+    .dropdownCompany a {
+        display: block;
+        color: var(--medium-gray);
+        padding: 0.5rem;
+        font-size: 1.6rem;
+    }
+
+    .wrapDropdownCompany:hover .dropdownCompany {
         display: block;
     }
 
