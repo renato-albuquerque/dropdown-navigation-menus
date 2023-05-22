@@ -179,6 +179,7 @@ footer {
         box-shadow: 0 0 15px 10px rgba(0,0,0,0.1);
         padding: 2rem;
         display: none;
+        position: absolute;
     }
 
     .dropdownFeatures a {
@@ -202,6 +203,7 @@ footer {
         box-shadow: 0 0 15px 10px rgba(0,0,0,0.1);
         padding: 2rem;
         display: none;
+        position: absolute;
     }
 
     .dropdownCompany a {
