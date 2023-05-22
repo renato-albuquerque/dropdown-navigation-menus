@@ -120,19 +120,20 @@ footer {
 
 .textFooter-p {
     font-size: 1.2rem;
-    color: var(--almost-black);
+    color: var(--medium-gray);
 }
 
 .textFooter-a {
     font-size: 1.2rem;
-    color: var(--medium-gray); 
+    color: var(--almost-black); 
 }
 
 .textFooter-a:hover {
-    color: var(--almost-black); 
     font-weight: 700;
-    transition: all 200ms;
+    transition: all 300ms;
 }
+
+/* DESKTOP VERSION */
 
 @media (min-width: 1300px) {
     body {
