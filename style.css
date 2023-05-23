@@ -19,6 +19,8 @@
     --almost-black: hsl(0, 0%, 8%);
 }
 
+/* MOBILE FIRST */
+
 body {
     font-size: 1.8rem;
     font-family: 'Epilogue', sans-serif;
@@ -131,6 +133,48 @@ footer {
 .textFooter-a:hover {
     font-weight: 700;
     transition: all 300ms;
+}
+
+.mobileSection {
+    display: block;
+}
+
+.ms-dropdown {
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ms-dropdown a {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.ms-dropdownFeatures {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.ms-dropdownFeatures img {
+    margin-right: 2rem;
+}
+
+.ms-dropdownFeatures a, .ms-dropdownCompany a {
+    margin-bottom: 2rem;
+} {
+    margin-right: 2rem;
+}
+
+.ms-dropdownCompany {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.ms-secondMenu {
+    margin-bottom: 2rem;
 }
 
 /* DESKTOP VERSION */
@@ -293,5 +337,8 @@ footer {
     .textFooter-a {
         font-size: 1.4rem;
     }
-    
+
+    .mobileSection {
+        display: none;
+    }
 }
