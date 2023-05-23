@@ -141,20 +141,21 @@ footer {
 
 .ms-dropdown {
     position: relative;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .ms-dropdown a {
     display: flex;
     align-items: center;
     gap: 2rem;
+    color: var(--medium-gray);
 }
 
 .ms-dropdownFeatures {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 
 .ms-dropdownFeatures img {
@@ -163,18 +164,30 @@ footer {
 
 .ms-dropdownFeatures a, .ms-dropdownCompany a {
     margin-bottom: 2rem;
-} {
-    margin-right: 2rem;
-}
+    color: var(--medium-gray);
+} 
 
 .ms-dropdownCompany {
     display: flex;
     flex-direction: column;
     margin-left: 2rem;
+    margin-bottom: 1rem;
 }
 
 .ms-secondMenu {
-    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ms-secondMenu .ms-dropdown {
+    /* margin-top: 2rem; */
+}
+
+.ms-secondMenu .ms-register {
+    border: 2px solid var(--medium-gray);
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
 }
 
 /* DESKTOP VERSION */
