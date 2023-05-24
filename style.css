@@ -149,6 +149,7 @@ footer {
     align-items: center;
     gap: 2rem;
     color: var(--medium-gray);
+    font-size: 1.4rem;
 }
 
 .ms-dropdownFeatures {
@@ -165,6 +166,7 @@ footer {
 .ms-dropdownFeatures a, .ms-dropdownCompany a {
     margin-bottom: 2rem;
     color: var(--medium-gray);
+    font-size: 1.4rem;
 } 
 
 .ms-dropdownCompany {
@@ -180,10 +182,6 @@ footer {
     align-items: center;
 }
 
-.ms-secondMenu .ms-dropdown {
-    /* margin-top: 2rem; */
-}
-
 .ms-secondMenu .ms-register {
     border: 2px solid var(--medium-gray);
     border-radius: 1.5rem;
@@ -191,15 +189,13 @@ footer {
 }
 
 .modal {
-    width: 32rem;
-    height: 100%;
-    /* top: 0;
-    left: 0; */
-    background-color: rgba(52, 52, 50, 0.749);
-    
     position: absolute;
     opacity: 0;
     visibility: hidden;
+    
+    width: 32rem;
+    height: 100%;
+    background-color: rgba(52, 52, 50, 0.749);
 }
 
 .open {
@@ -218,10 +214,6 @@ footer {
 
 .bgBody {
     background-color: rgba(52, 52, 50, 0.749);
-}
-
-.closeMobileMenu {
-    
 }
 
 /* DESKTOP VERSION */
