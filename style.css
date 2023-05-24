@@ -216,6 +216,15 @@ footer {
     background-color: rgba(52, 52, 50, 0.749);
 }
 
+.arrow {
+    transform: rotate(180deg);
+    transition-duration: 200ms;
+}
+
+.hide {
+    display: none;
+}
+
 /* DESKTOP VERSION */
 
 @media (min-width: 1300px) {
